@@ -25,5 +25,5 @@ cat >/opt/alist/data/config.json <<EOF
 EOF
 
 cd /opt/alist
-./alist admin
-./alist server
+./alist admin --debug
+./alist server --debug
