@@ -25,6 +25,4 @@ cat >/opt/alist/data/config.json <<EOF
 EOF
 
 cd /opt/alist
-./alist -password>x.txt
-printf "$(cat ./x.txt)"
 ./alist -conf data/config.json
