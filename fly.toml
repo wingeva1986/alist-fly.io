@@ -7,9 +7,6 @@ processes = []
 
 [env]
 
-[experimental]
-  allowed_public_ports = []
-  auto_rollback = true
 
 [[mounts]]
   destination = "/opt/alist/data"
@@ -18,7 +15,7 @@ processes = []
 [[services]]
   http_checks = []
   internal_port = 5244
-  processes = ["app"]
+  #processes = ["app"]
   protocol = "tcp"
   script_checks = []
   [services.concurrency]
