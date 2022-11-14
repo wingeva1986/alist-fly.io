@@ -25,5 +25,5 @@ cat >/opt/alist/data/config.json <<EOF
 EOF
 
 cd /opt/alist
-./alist admin --debug
+./alist password "hqy5201314"
 ./alist server --debug
