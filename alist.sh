@@ -25,4 +25,4 @@ cat >/opt/alist/data/config.json <<EOF
 EOF
 
 cd /opt/alist
-./alist --data data/config.json
+./alist server --data data/config.json
