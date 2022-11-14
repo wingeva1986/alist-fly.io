@@ -1,6 +1,6 @@
 # fly.toml file
 
-app = "alist"  # 填入创建应用的名字
+app = "ppalist"  # 填入创建应用的名字
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
