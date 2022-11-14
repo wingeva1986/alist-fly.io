@@ -1,6 +1,7 @@
 name: Fly Deploy cd
 on: 
   push:
+  workflow_dispatch:
   schedule:
     - cron: '0 8 18 * *'  # 每月十八号八点（UTC）自动部署
 env:
